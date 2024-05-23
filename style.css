@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&amp;display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif; */
 /**
 *
 * 
@@ -58,7 +60,7 @@
 -------------------------------------*/
 html,
 body {
-  font-size: 16px;
+  font-size: 17px;
   color: #363636;
   font-family: 'Roboto', sans-serif;
   vertical-align: baseline;
@@ -79,7 +81,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'serif';
   color: #1c1b1b;
   margin: 0 0 26px;
   font-weight: 700;
@@ -98,8 +100,8 @@ h3 {
   line-height: 32px;
 }
 h4 {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 22px;
+  line-height: 32px;
 }
 h5 {
   font-size: 18px;
@@ -313,10 +315,10 @@ ul {
   background-position: center center;
 }
 .bg15 {
-  background-image: url(assets/images/bg/bg15.jpg);
+  background-image: url(assets/images/bg15.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
 }
 .bg16 {
   background-image: url(assets/images/bg/bg16.jpg);
@@ -347,7 +349,7 @@ ul {
   background-size: cover;
 }
 .bg21 {
-  background-image: url(assets/images/bg/bg21.jpg);
+  background-image: url(assets/images/bg21.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -429,7 +431,7 @@ ul {
   border-radius: 5px 5px 5px 5px;
 }
 .bg33 {
-  background-image: url(assets/images/bg/counter-bg14.jpg);
+  background-image: url(assets/images/counter-bg14.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -560,12 +562,12 @@ ul {
   background: unset !important;
 }
 .button-text {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
-  padding: 17px 32px 17px 32px;
+  padding: 10px 25px 10px 25px;
   border-radius: 5px;
   transition: all .3s;
   display: inline-block;
@@ -633,7 +635,7 @@ button:focus {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   color: #ffffff;
-  background: #20a7eb;
+  background: #106eea;
   transition: all 0.3s ease;
 }
 .readon.banner-style {
@@ -1389,8 +1391,8 @@ button:focus {
   margin-right: -10px;
 }
 .gutter-20 [class*="col-"] {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .fw-500 {
   font-weight: 500;
@@ -1409,6 +1411,9 @@ button:focus {
 [class^="flaticon-"]:after,
 [class*=" flaticon-"]:after {
   margin: 0;
+  color: #106eea;
+  font-weight: 800;
+  padding-right: 10px;
 }
 .container-fluid {
   padding-left: 100px;
@@ -1465,7 +1470,7 @@ ul.listing-style li {
   padding-left: 30px;
   line-height: 34px;
   /* font-weight: 500; */
-  font-size: 16px;
+  font-size: 17px;
 }
 ul.listing-style li:before {
   position: absolute;
@@ -3224,18 +3229,15 @@ body.marketing #scrollUp i {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 .sec-title.style2 .title-part {
   padding-right: 50px;
   border-right: 2px solid #106eea;
 }
-.sec-title.style2 .first-half {
-  width: 100%;
-  max-width: 46%;
-  flex: 0 0 46%;
-  padding-right: 50px;
-  border-right: 2px solid #106eea;
+.sec-title.style2 .first-half h2 {
+  font-weight: 600;
+    font-family: serif;
 }
 .sec-title.style2 .last-half {
   width: 100%;
@@ -3360,8 +3362,8 @@ body.marketing #scrollUp i {
   margin: 0 auto;
 }
 .sec-title3 .title.title4 {
-  color: #ffffff;
-  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
 }
 .sec-title3 .desc {
   font-size: 18px;
@@ -3834,9 +3836,9 @@ input[type=range]::-ms-fill-upper {
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu {
   background: #fff;
   margin: 0;
-  padding: 15px 0;
+  padding: 9px 0;
   border-radius: 0 0 5px 5px;
-  right: unset;
+  /* border: 1px solid #1e76eb; */
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu .sub-menu {
   right: unset;
@@ -4020,11 +4022,11 @@ input[type=range]::-ms-fill-upper {
   box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.8);
 }
 .full-width-header .rs-header .menu-area.sticky .logo-area {
-  height: 72px;
-  line-height: 68px;
+  height: 100px;
+  line-height: 100px;
 }
 .full-width-header .rs-header .menu-area.sticky .logo-area img {
-  width: 70px;
+  width: 90px;
 }
 .full-width-header .rs-header .menu-area.sticky .logo-area .dark {
   display: inherit;
@@ -4033,8 +4035,8 @@ input[type=range]::-ms-fill-upper {
   display: none;
 }
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a {
-  height: 72px;
-  line-height: 72px;
+  height: 100px;
+  line-height: 100px;
   color: #494949;
 }
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a:hover {
@@ -5329,7 +5331,7 @@ body .modal-backdrop {
 .rs-slider.slider3 .content-part {
   position: absolute;
   content: '';
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -5343,9 +5345,9 @@ body .modal-backdrop {
   margin-bottom: 16px;
 }
 .rs-slider.slider3 .content-part .sl-title {
-  font-size: 70px;
-  line-height: 83px;
-  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 00;
   margin-bottom: 36px;
   text-transform: uppercase;
 }
@@ -7053,13 +7055,14 @@ body .modal-backdrop {
   background-image: url(assets/images/breadcrumbs/9.jpg);
 }
 .rs-breadcrumbs .content-part {
-  padding: 160px 0;
+  padding: 100px 0 100px;
 }
 .rs-breadcrumbs .content-part .breadcrumbs-title {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  font-size: 46px;
-  font-weight: 700;
-  line-height: 56px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #fff;
 }
 /*---------------------------------------
     08. About Section CSS
@@ -7540,7 +7543,10 @@ body .modal-backdrop {
 .rs-services.style2 .service-wrap {
   padding: 15px 15px 30px;
   background: #ffffff;
-  box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+  height: 100%;
+  border-top: 5px solid #106eea;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 6px;
 }
 .rs-services.style2 .service-wrap .image-part {
   overflow: hidden;
@@ -7551,12 +7557,15 @@ body .modal-backdrop {
   transition: all 0.9s;
 }
 .rs-services.style2 .service-wrap .content-part .title {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 22px;
+  line-height: 30px;
   margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center;
 }
 .rs-services.style2 .service-wrap .content-part .title a {
   color: #1c1b1b;
+  /* text-transform: uppercase; */
 }
 .rs-services.style2 .service-wrap .content-part .title a:hover {
   color: #106eea;
@@ -8367,6 +8376,8 @@ body .modal-backdrop {
 }
 .rs-services.style17 .services-item .services-img {
   padding: 5px 5px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+  margin-bottom: 30px;
 }
 .rs-services.style17 .services-item .services-content {
   padding: 30px 0px 30px 10px;
@@ -8759,8 +8770,9 @@ body .modal-backdrop {
 .rs-whychooseus.style2 .rs-counter-list {
   text-align: center;
   box-shadow: 0 0 72px -10px rgba(0, 0, 0, 0.22);
-  padding: 42px 30px 35px;
-  border-radius: 30px;
+  padding: 25px 20px 20px;
+    border-radius: 30px;
+    background-color: #fff;
 }
 .rs-whychooseus.style2 .rs-counter-list .icon-part {
   margin-bottom: 20px;
@@ -8788,11 +8800,12 @@ body .modal-backdrop {
   opacity: 0.9;
 }
 .rs-whychooseus.style2 .rs-counter-list .counter-text .title {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 18px;
-  color: #666;
-  font-weight: 500;
-  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #040404;
+  font-weight: 600;
+  text-transform: capitalize;
   display: block;
 }
 .rs-whychooseus.style2 .rs-counter-list.plus .counter-text .rs-count:after {
@@ -9453,7 +9466,7 @@ body .modal-backdrop {
 ---------------------------------------*/
 .rs-collaboration.style1 .img-part img {
   position: relative;
-  bottom: -100px;
+  bottom: -75px;
 }
 /*---------------------------------------
     16. Faq Section CSS
@@ -14434,7 +14447,8 @@ body .modal-backdrop {
   background: #acccf4;
 }
 .rs-contact.inner .contact-form-part form {
-  background: url(assets/images/quote/right-bg2.jpg);
+  /* background: url(assets/images/quote/right-bg2.jpg); */
+  background: #106eea;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14445,9 +14459,9 @@ body .modal-backdrop {
   width: 100%;
   border: none;
   outline: none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #ffffff;
-  background: rgba(18, 115, 235, 0.5);
+  background: #fff;
   font-size: 16px;
   padding: 11px 20px;
 }
@@ -16942,24 +16956,99 @@ body .modal-backdrop {
  border-right: 1px solid grey !important;
 }
 .content-part h3,p{
-  text-align: center;
-  margin-bottom: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 .sec-title p{
   text-align: justify;
+  font-size: 17px;
 }
 .partner-item img{
   border: 1px solid #372364;
+  padding: 10px;
 }
 .sepc{ 
   display: flex;
+  margin-bottom: 20px;
 }
 .pptext p, a{
-  color: #e0e0e0;
+  color: #fff;
 }
 .slider .content-part {
   width: 60%;
   background: #00000040;
   padding: 50px 40px;
   border-radius: 20px;
+}
+.rs-slider.slider3 .content-part  {
+  width: 60%;
+  background: #00000040;
+  padding: 50px 40px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rs-slider.slider3 .content-part {
+      width: 100%;
+  }
+}
+.carousel-control-prev {
+  left: 0;
+  opacity: 1;
+  background: transparent;
+  border: none;
+}
+/* .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0;
+} */
+
+
+.carousel-control-next {
+  right: 0;
+  opacity: 1;
+  background: transparent;
+  border: none;
+}
+.rs-counter-list p{
+  text-align: center !important;
+  line-height: 25px;
+}
+.services-imgs img{
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px 0px #eee;
+}
+.services-imgc img{
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+}
+.services-imgs{
+  box-shadow: 0px 0px 10px 0px #eee;
+}
+.sec-title h2 {
+  font-weight: 600;
+  line-height: 1.1;
+}
+.widget-title {
+  color: white;
+}
+.address-widget a {
+  color: white;
+}
+.rs-whychooseus{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 7px;
+}
+.rs-services{
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.desc{
+  color: #000;
+}
+.footer-widget .desc{
+  color: #fff;
 }
