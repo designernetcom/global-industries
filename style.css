@@ -1678,6 +1678,7 @@ ul.page-nav-vertical li:last-child {
   text-align: center;
   padding: 50px 25px 53px;
   border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 8px;
 }
 .addd .contact-icon {
   width: 70px;
@@ -1728,6 +1729,7 @@ ul.page-nav-vertical li:last-child {
 .brochures {
   background: #f1f6fc;
   padding: 35px 30px 45px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 8px;
 }
 .sidebar-form {
   padding: 40px 30px;
@@ -3229,7 +3231,7 @@ body.marketing #scrollUp i {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .sec-title.style2 .title-part {
   padding-right: 50px;
@@ -17051,4 +17053,7 @@ body .modal-backdrop {
 }
 .footer-widget .desc{
   color: #fff;
+}
+.ptpro{
+  padding-top: 20px !important;
 }
