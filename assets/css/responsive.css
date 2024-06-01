@@ -314,7 +314,7 @@
         padding-right: 27px;
     }
     .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu > li {
-        margin-right: 27px;
+        margin-right: 21px;
     }
     .rs-services.style1 .service-wrap {
         padding: 30px 15px;
@@ -797,7 +797,7 @@
         background: #fff !important;
         position: fixed !important;
         top: 0px;
-        z-index: 999;
+        z-index: 999999;
         margin: 0 auto !important;
         padding: 0;
         left: 0;
