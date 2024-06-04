@@ -65,7 +65,7 @@ font-family: 'Oswald', sans-serif; */
 html,
 body {
   font-size: 17px;
-  color: #363636;
+  color: #222222;
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Montserrat", sans-serif;
   vertical-align: baseline;
@@ -1417,8 +1417,8 @@ button:focus {
 [class^="flaticon-"]:after,
 [class*=" flaticon-"]:after {
   margin: 0;
-  color: #106eea;
-  font-weight: 800;
+  color: #59b5f9;
+  /* font-weight: 800; */
   padding-right: 10px;
 }
 .container-fluid {
@@ -10126,40 +10126,50 @@ body .modal-backdrop {
   border: none;
 }
 .rs-portfolio.single .gallery-wrap .gallery-item {
-  border-radius: 5px;
-  overflow: hidden;
-  position: relative;
+  /* border-radius: 5px; */
+  /* overflow: hidden; */
+      /* border-radius: 5px; */
+    /* overflow: hidden; */
+    
+    position: relative;
+}
+.pro-gal .gallery-item{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 7px;
 }
 .rs-portfolio.single .gallery-wrap .gallery-item a.image-popup {
   width: 46px;
   height: 46px;
   line-height: 46px;
   border-radius: 100%;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   text-align: center;
   position: absolute;
   content: '';
   left: 50%;
   top: 60%;
   transform: translate(-50%, -50%);
-  font-size: 14px;
-  color: #ffffff;
+  font-size: 20px;
+  color: #372363;
   opacity: 0;
   visibility: hidden;
   z-index: 1;
+  background: #fff;
 }
 .rs-portfolio.single .gallery-wrap .gallery-item a.image-popup:hover {
-  background: #106eea;
-  border-color: #106eea;
+  background: #fff;
+  border-color: #fff;
 }
-.rs-portfolio.single .gallery-wrap .gallery-item:after {
+.gallery-item .eeeeediv{
+  position: relative;
+}
+.rs-portfolio.single .gallery-wrap .gallery-item .eeeeediv:after {
   position: absolute;
   content: '';
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgb(0 0 0 / 18%);
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
@@ -17107,7 +17117,7 @@ body .modal-backdrop {
   margin-left: 20px;
   margin-bottom: 10px;
 }
-.ppp-img img{
+.gallery-item{
   border: 1px solid #106eea;
 }
 .btn-part{
