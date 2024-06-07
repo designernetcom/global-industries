@@ -471,8 +471,8 @@
         padding: 33px 15px 25px;
     }
     .rs-slider.slider3 .content-part .sl-title {
-        font-size: 60px;
-        line-height: 73px;
+        font-size: 30px;
+        line-height: 35px;
     }
     .rs-services.style3 .col-lg-5.pr-70,
     .rs-whychooseus.style1 .col-md-6.pr-50,
@@ -2811,6 +2811,9 @@ width: 100%;
         margin-bottom: 30px;
     }
     .rs-about .arow{
+        flex-direction: column-reverse;
+    }
+    .style4 .morow{
         flex-direction: column-reverse;
     }
     .sec-title .desc {
