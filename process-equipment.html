@@ -86,59 +86,80 @@
     </head>
     <body class="home-three">
 
-        <div class="full-width-header">
-           
-            
-            <!--Header Start-->
-            <header id="rs-header" class="rs-header">
-                <!-- Menu Start -->
-                <div class="menu-area menu-sticky">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <div class="logo-area">
-                                    <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
-                                </div>
+       <style>
+    .navbar-area .main-nav:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        bottom: 39px;
+        height: 100%;
+        width: 25%;
+        border-left: 0px solid transparent;
+        border-top: 104px solid #fff;
+        border-right: 130px solid transparent;
+        -webkit-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+    }
+    .navbar-area .main-nav{
+        background-color: #1fa7eb !important;
+    }
+    
+</style>
+    <!--Full width header Start-->
+    <div class="full-width-header navbar-area">
+        <!--Header Start-->
+        <header id="rs-header"  class="rs-header main-nav">
+            <!-- Menu Start -->
+            <div class="menu-area  menu-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <div class="logo-area">
+                                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
                             </div>
-                            <div class="col-lg-10 text-right">
-                                <div class="rs-menu-area">
-                                    <div class="main-menu">
-                                        <div class="mobile-menu">
-                                            <a class="rs-menu-toggle">
-                                                <i class="fa fa-bars"></i>
-                                            </a>
-                                        </div>
-                                        <nav class="rs-menu pr-65">
+                        </div>
+                        <div class="col-lg-10 text-right">
+                            <div class="rs-menu-area ">
+                                <div class="main-menu">
+                                    <div class="mobile-menu">
+                                        <a class="rs-menu-toggle">
+                                            <i class="fa fa-bars"></i>
+                                        </a>
+                                    </div>
+                                        <nav class="rs-menu">
                                             <ul class="nav-menu">
                                                 <li> <a href="index.html">Home</a></li>
                                                 <li class="menu-item-has-children">
-                                                <a href="about.html">About Us</a>
+                                            <a href="#">About Us</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="about.html">About Us</a></li>
-                                                    <li><a href="leadership.html">Leadership</a></li>
-                                                    <li><a href="infrastructure.html">Infrastructure</a></li>
-                                                    <li class="last-item menu-item-has-children ">
-                                                        <a href="crane-overhauling-services.html">Our Services</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="crane-overhauling-services.html">Crane Overhauling Services</a> </li>
-                                                            <li><a href="repair-and-maintenance-services.html">Repair and Maintenance Services of Mechanical Seal Systems</a> </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="csr-and-sustainability.html">CSR and Sustainability</a></li>
-                                                </ul>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="leadership.html">Leadership</a></li>
+                                                <li><a href="infrastructure.html">Infrastructure</a></li>
+                                                <li><a href="testimonial.html">Testimonials</a></li>
+                                                <li class="last-item menu-item-has-children ">
+                                                    <a href="#">Our Services</a>
+                                                     <ul class="sub-menu">
+                                                        <li><a href="crane-overhauling-services.html">Crane Overhauling Services</a> </li>
+                                                        <li><a href="repair-and-maintenance-services.html">Repair and Maintenance Services of Mechanical Seal Support Systems</a> </li>
+                                                        <li><a href="heat-exchanger-tube-replacement-and-overhauling.html">Heat Exchanger – Tube Replacement and Overhauling</a> </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="csr-and-sustainability.html">CSR and Sustainability</a></li>
+                                            </ul>
                                             </li>
                                                 <li class="menu-item-has-children current-menu-item">
                                                     <a href="#">Products</a>
                                                      <ul class="sub-menu">
                                                     <li><a href="process-equipment.html">Process Equipment</a></li>
-                                                    <li><a href="mechanical-seal-system.html">Mechanical Seal System</a></li>
-                                                    <li><a href="material-handling-system.html">Material Handling System</a></li>
-                                                    <li><a href="sugar-plant-boiler-distilleries.html">Sugar Plant, Boiler and Distilleries</a></li>
-                                                    <li><a href="chemical-storage-tank.html">Chemical Storage Tanks</a></li>
+                                                    <li><a href="mechanical-seal-system.html">Mechanical Seal Support System</a></li>
+                                                    <li><a href="chemical-storage-tank.html">Storage Tanks</a></li>
                                                     <li><a href="air-pollution-control-system.html">Air Pollution Control System</a></li>
-                                                    <li><a href="liquefied-gas-container.html">Liquefied Gas Container</a></li>
                                                     <li><a href="oil-and-gas.html">Oil and Gas</a></li>
                                                     <li><a href="skid-package-unit.html">Skid Package Unit</a></li>
+                                                    <li><a href="liquefied-gas-container.html">Liquefied Gas Container</a></li>
+                                                    <li><a href="sugar-plant-boiler-distilleries.html">Sugar Plant, Boiler and Distilleries</a></li>
+                                                    <li><a href="material-handling-system.html">Material Handling System</a></li>
                                                 </ul>
                                                 </li>
                                               
@@ -146,11 +167,22 @@
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Gallery</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="product-gallery.html">Product Gallery</a></li>
-                                                        <li><a href="">Video Gallery</a></li>
-                                                    </ul>
+                                                    <li><a href="product-gallery.html">Product Gallery</a></li>
+                                                    <li><a href="">Video Gallery</a></li>
+                                                    <li><a href="our-team.html">Our Team</a></li>
+                                                </ul>
                                                 </li>
-                                                <li> <a href="#">Blogs</a></li>
+                                               <li class="menu-item-has-children">
+                                                <a href="#">Technology</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Compress Biogas (CBG)</a></li>
+                                                    <li><a href="#">Gas Purification System</a></li>
+                                                    <li><a href="#">Cryogenic Equipments</a></li>
+                                                    <li><a href="#">Swivel Joints</a></li>
+                                                    <li><a href="#">CNG Cascades</a></li>
+                                                    <li><a href="#">Green Hydrogen</a></li>
+                                                </ul>
+                                            </li>
                                                 <li> <a href="client.html">Clients</a></li>
                                                 <li> <a href="contact.html">Contact Us</a></li>
                                             </ul> 
@@ -203,7 +235,15 @@
                             </div>
                             <div class="pro-text">
                                 <p>
-                                    Y&S Global. is a one-stop solution company that excels in the fabrication of process equipment, piping, pressure vessels, and heat exchangers. The company strictly adheres to national and international standards such as IS, ASME, and API. With over 19 years of experience, Y&S Global. has established itself as a leader in innovative designs, particularly for sugar mill equipment, many of which have been patented by their business partners. They have extensive experience in cement plant fabrication work and maintenance, having undertaken significant projects including 54 kl, 75 kl, and 150 kl ammonia storage tanks, silos, dampers, aluminum gangways, piping, pipelines, oil storage tanks, water storage tanks, and service tanks. Additionally, they have been serving the steel industries for over 19 years, providing a variety of heavy and light fabricated products such as material handling equipment, dust collectors, ladles, blooming mill furnace doors, gas cooling towers, and material ingot trolleys.
+                                    Y&S Global Industries. is a one-stop solution company that excels in the fabrication of
+                                     process equipment, piping, pressure vessels, and heat exchangers. The company strictly 
+                                     adheres to national and international standards such as IS, ASME, and API. With over 
+                                     19 years of experience, Y&S Global Industries 
+                                    has established itself as a leader in innovative designs, particularly for sugar mill 
+
+                                    equipment, many of which have been patented by their business partners. T
+                                    hey have extensive experience in cement plant fabrication work and maintenance, 
+                                    having undertaken significant projects storage tanks, silos, dampers, aluminum gangways, piping, pipelines, oil storage tanks, water storage tanks, and service tanks. Additionally, they have been serving the steel industries for over 19 years, providing a variety of heavy and light fabricated products such as material handling equipment, dust collectors, ladles, blooming mill furnace doors, gas cooling towers, and material ingot trolleys.
                                 </p>
                             </div>
                             
@@ -218,8 +258,8 @@
                                     </div>
                                     <div class="row gutter-20">
                                         <p class="mb-50">
-                                            Y&S Global. specializes in the design and manufacture of heat exchangers that optimize heat transfer efficiency for various industrial applications. Our heat exchangers are custom-built to meet the specific needs of our clients, ensuring maximum performance and reliability. By adhering to stringent national and international standards such as IS, ASME, and API, we guarantee the highest quality and safety in our products. 
-                                            <!-- Our expertise encompasses a wide range of heat exchanger types, including shell and tube, plate, and finned tube heat exchangers, all engineered to handle demanding thermal requirements. With a focus on innovation and precision, Y&S Global. delivers heat exchangers that enhance operational efficiency and contribute to the overall productivity of industrial processes. -->
+                                            Y&S Global Industries specializes in the design and manufacture of heat exchangers that optimize heat transfer efficiency for various industrial applications. Our heat exchangers are custom-built to meet the specific needs of our clients, ensuring maximum performance and reliability. By adhering to stringent national and international standards such as IS, ASME, and API, we guarantee the highest quality and safety in our products. 
+                                            <!-- Our expertise encompasses a wide range of heat exchanger types, including shell and tube, plate, and finned tube heat exchangers, all engineered to handle demanding thermal requirements. With a focus on innovation and precision, Y&S Global Industries delivers heat exchangers that enhance operational efficiency and contribute to the overall productivity of industrial processes. -->
                                         </p>
                                         <div class="col-lg-4 col-md-6 mb-30">
                                             <div class="service-wrap extrap">
@@ -278,7 +318,7 @@
                                         </div>
                                        
                                     </div>
-                                </div>
+                                </div >
                             </div>
                             <div  class="rs-services style2 ptpros  pb-70 ">
                                 <div class="container">
@@ -288,9 +328,9 @@
                                         </div>
                                         
                                     </div>
-                                    <div class="row gutter-20 ">
+                                    <div class="row gutter-20 " >
                                         <p class="mb-30">
-                                            Y&S Global. specializes in the design, fabrication, and maintenance of high-quality pressure vessels. Our pressure vessels are meticulously crafted to meet stringent national and international standards, including IS, ASME, and API, ensuring safety, reliability, and durability for various industrial applications.
+                                            Y&S Global Industries specializes in the design, fabrication, and maintenance of high-quality pressure vessels. Our pressure vessels are meticulously crafted to meet stringent national and international standards, including IS, ASME, and API, ensuring safety, reliability, and durability for various industrial applications.
                                         </p>
                                         <div class="col-lg-4 col-md-6 mb-30">
                                             <div class="service-wrap extrap">
@@ -326,10 +366,10 @@
                                 </div>
                                 <ul class="page-nav-vertical  ">
                                    <li class="active"><a href="process-equipment.html">Process Equipment</a></li>
-                                    <li><a href="mechanical-seal-system.html">Mechanical Seal System</a></li>
+                                    <li><a href="mechanical-seal-system.html">Mechanical Seal Support System</a></li>
                                     <li><a href="material-handling-system.html">Material Handling System</a></li>
                                    <li><a href="sugar-plant-boiler-distilleries.html">Sugar Plant, Boiler and Distilleries</a></li>
-                                    <li><a href="chemical-storage-tank.html">Chemical Storage Tanks</a></li>
+                                    <li><a href="chemical-storage-tank.html">Storage Tanks</a></li>
                                     <li><a href="air-pollution-control-system.html">Air Pollution Control System</a></li>
                                     <li><a href="liquefied-gas-container.html">Liquefied Gas Container</a></li>
                                     <li><a href="oil-and-gas.html">Oil and Gas</a></li>
@@ -354,6 +394,82 @@
 
         <!-- Footer Start -->
         <!-- <footer id="rs-footer" class="rs-footer" style="background-image: url(assets/images/foot-bg.jpg);background-size: cover;"> -->
+            <div class="rs-partner modify pt-10 pb-70">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="texthead text-center mb-40">
+                                <h2>Our Clients</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="rs-carousel owl-carousel" data-loop="true" data-items="6" data-margin="30"
+                        data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
+                        data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false"
+                        data-mobile-device="2" data-mobile-device-nav="false" data-mobile-device-dots="false"
+                        data-ipad-device="5" data-ipad-device-nav="false" data-ipad-device-dots="false"
+                        data-ipad-device2="5" data-ipad-device-nav2="false" data-ipad-device-dots2="false"
+                        data-md-device="5" data-md-device-nav="false" data-md-device-dots="false">
+                        <div class="partner-item">
+                            <img src="assets/images/partner/c1.jpg" alt=""></a>
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/images/partner/c2.jpg" alt=""></a>
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/images/partner/c3.jpg" alt=""></a>
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/images/partner/c4.jpg" alt=""></a>
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/images/partner/c5.jpg" alt=""></a>
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/images/partner/c6.jpg" alt=""></a>
+                        </div>
+                        <div class="partner-item">
+                            <img src="assets/images/partner/c7.jpg" alt=""></a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Start -->
+            <!-- <footer id="rs-footer" class="rs-footer" style="background-image: url(assets/images/foot-bg.jpg);background-size: cover;"> -->
+           <style>
+        .footer-content .about-widget h4 {
+            color: #000 !important;
+        }
+        .footer-content .about-widget p {
+            color: #000 !important;
+        }
+        .footer-content h4 {
+            color: #000 !important;
+        }
+        .footer-content .address-widget p {
+            color: #000 !important;
+        }
+        .footer-content .address-widget a {
+            color: #000 !important;
+        }
+        .footer-content .address-widget .desc {
+            color: #000 !important;
+        }
+        .copyright p{
+            color: #000 !important;
+        }
+        .pptext  p,a{
+            color: #000 ;
+        }
+        .btmn a{
+            color: #fff !important;
+        }
+    </style>
+        <!-- Footer Start -->
+        <!-- <footer id="rs-footer" class="rs-footer" style="background-image: url(assets/images/foot-bg.jpg);background-size: cover;"> -->
         <footer id="rs-footer" class="rs-footers gray-bg7 text-white">
         <div class="container">
             <div class="footer-content pt-62 pb-50 md-pb-64 sm-pt-48">
@@ -362,7 +478,7 @@
                         <div class="about-widget pr-15">
                             <h4 class="widget-title">About Us</h4>
                             <p class="desc">
-                                Y&S Global. is a
+                                Y&S Global Industries is a
                                 one-stop solution company that focuses on
                                 fabrication, piping, pressure vessels, and
                                 heat exchangers while strictly adhering to national and
@@ -375,7 +491,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget">
+                   <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget wow bounceInDown center">
                         <h4 class="widget-title">Contact Info</h4>
                         <ul class="address-widget pr-40">
                             <li>
@@ -397,7 +513,8 @@
                                     </div>
                                     <div class="desc">
                                         <a href="tel:918888855975">+91 8888855975</a><br>
-                                        <a href="tel:919850667926">+91 9850667926</a>
+                                         <a href="tel:+919922913033">+919922913033</a><br>
+                                    <a href="tel:+919730477555">+919730477555</a>
                                     </div>
                                 </div>
                             </li>
@@ -439,7 +556,7 @@
                 <div class="row y-middle">
                     <div class="col-lg-6 col-md-6 ">
                         <div class="copyright">
-                            <p>© Global Industries India Pvt. Ltd. All Rights Reserved.</p>
+                            <p> Y&S Process Equipment Pvt. Ltd. All Rights Reserved.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 text-right sm-text-center">

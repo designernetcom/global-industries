@@ -87,13 +87,32 @@
 </head>
 
 <body class="home-three">
-
+<style>
+    .navbar-area .main-nav:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        bottom: 39px;
+        height: 100%;
+        width: 25%;
+        border-left: 0px solid transparent;
+        border-top: 115px solid #fff;
+        border-right: 130px solid transparent;
+        -webkit-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+    }
+    .navbar-area .main-nav{
+        background-color: #1fa7eb !important;
+    }
+    
+</style>
     <!--Full width header Start-->
-    <div class="full-width-header header-style3">
+    <div class="full-width-header navbar-area">
         <!--Header Start-->
-        <header id="rs-header" class="rs-header">
+        <header id="rs-header"  class="rs-header main-nav">
             <!-- Menu Start -->
-            <div class="menu-area menu-sticky">
+            <div class="menu-area  menu-sticky">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2">
@@ -102,7 +121,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10 text-right">
-                            <div class="rs-menu-area">
+                            <div class="rs-menu-area ">
                                 <div class="main-menu">
                                     <div class="mobile-menu">
                                         <a class="rs-menu-toggle">
@@ -111,64 +130,76 @@
                                     </div>
                                     <nav class="rs-menu ">
                                         <ul class="nav-menu">
-                                            <li class="current-menu-item"> <a href="#">Home</a></li>
+                                            <li class="current-menu-item"> <a href="index.html">Home</a></li>
                                             <li class="menu-item-has-children">
-                                                <a href="about.html">About Us</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="about.html">About Us</a></li>
-                                                    <li><a href="leadership.html">Leadership</a></li>
-                                                    <li><a href="infrastructure.html">Infrastructure</a></li>
-                                                    <li class="last-item menu-item-has-children">
-                                                        <a href="crane-overhauling-services.html">Our Services</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="crane-overhauling-services.html">Crane Overhauling Services</a> </li>
-                                                            <li><a href="repair-and-maintenance-services.html">Repair and Maintenance Services of Mechanical Seal Systems</a> </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="csr-and-sustainability.html">CSR and Sustainability</a></li>
-                                                </ul>
-                                            </li>
+                                            <a href="#">About Us</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="leadership.html">Leadership</a></li>
+                                                <li><a href="infrastructure.html">Infrastructure</a></li>
+                                                <li><a href="testimonial.html">Testimonials</a></li>
+                                                <li class="last-item menu-item-has-children ">
+                                                    <a href="#">Our Services</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="crane-overhauling-services.html">Crane Overhauling Services</a> </li>
+                                                        <li><a href="repair-and-maintenance-services.html">Repair and Maintenance Services of Mechanical Seal Support Systems</a> </li>
+                                                        <li><a href="heat-exchanger-tube-replacement-and-overhauling.html">Heat Exchanger – Tube Replacement and Overhauling</a> </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="csr-and-sustainability.html">CSR and Sustainability</a></li>
+                                            </ul>
+                                        </li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">Products</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="process-equipment.html">Process Equipment</a></li>
-                                                    <li><a href="mechanical-seal-system.html">Mechanical Seal System</a></li>
-                                                    <li><a href="material-handling-system.html">Material Handling System</a></li>
-                                                    <li><a href="sugar-plant-boiler-distilleries.html">Sugar Plant, Boiler and Distilleries</a></li>
-                                                    <li><a href="chemical-storage-tank.html">Chemical Storage Tanks</a></li>
+                                                    <li><a href="mechanical-seal-system.html">Mechanical Seal Support System</a></li>
+                                                    <li><a href="chemical-storage-tank.html">Storage Tanks</a></li>
                                                     <li><a href="air-pollution-control-system.html">Air Pollution Control System</a></li>
-                                                    <li><a href="liquefied-gas-container.html">Liquefied Gas Container</a></li>
                                                     <li><a href="oil-and-gas.html">Oil and Gas</a></li>
                                                     <li><a href="skid-package-unit.html">Skid Package Unit</a></li>
+                                                    <li><a href="liquefied-gas-container.html">Liquefied Gas Container</a></li>
+                                                    <li><a href="sugar-plant-boiler-distilleries.html">Sugar Plant, Boiler and Distilleries</a></li>
+                                                    <li><a href="material-handling-system.html">Material Handling System</a></li>
                                                 </ul>
                                             </li>
-
-                                            <li> <a href="certificate.html">Certificates</a></li>
+                                          
+                                            <li><a href="certificate.html">Certificates</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">Gallery</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="product-gallery.html">Product Gallery</a></li>
                                                     <li><a href="">Video Gallery</a></li>
+                                                    <li><a href="our-team.html">Our Team</a></li>
                                                 </ul>
                                             </li>
-                                            <li> <a href="#">Blogs</a></li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#">Technology</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Compress Biogas (CBG)</a></li>
+                                                    <li><a href="#">Gas Purification System</a></li>
+                                                    <li><a href="#">Cryogenic Equipments</a></li>
+                                                    <li><a href="#">Swivel Joints</a></li>
+                                                    <li><a href="#">CNG Cascades</a></li>
+                                                    <li><a href="#">Green Hydrogen</a></li>
+                                                </ul>
+                                            </li>
                                             <li> <a href="client.html">Clients</a></li>
                                             <li> <a href="contact.html">Contact Us</a></li>
-                                        </ul>
+                                        </ul> 
                                     </nav>
                                 </div> <!-- //.main-menu -->
-                                <!-- <div class="expand-btn-inner">
-                                        <div class="number">
-                                            <i class="flaticon-call"></i>
-                                            <a href="tel:+918888855975">+91 8888855975</a>
-                                        </div>
-                                    </div> -->
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Menu End -->
+
+            <!-- Canvas Menu start -->
+          
+            <!-- Canvas Menu end -->
         </header>
         <!--Header End-->
     </div>
@@ -183,9 +214,10 @@
             <div class="bend niceties">
                 <div id="nivoSlider" class="slides">
                     <img src="assets/images/banner/111.jpg" alt="" title="#slide-1" />
-                    <img src="assets/images/banner/222.jpg" alt="" title="#slide-2" />
-                    <img src="assets/images/banner/bb3.png" alt="" title="#slide-3" />
+                    <img src="assets/images/banner/bb3.png" alt="" title="#slide-2" />
+                    <img src="assets/images/banner/bb2.png" alt="" title="#slide-3" />
                     <img src="assets/images/banner/444.jpg" alt="" title="#slide-4" />
+                    <img src="assets/images/banner/bb5.png" alt="" title="#slide-5" />
                 </div>
                 <!-- Slide 1 -->
                 <div id="slide-1" class="slider slider-direction">
@@ -211,7 +243,7 @@
                 
                 <div id="slide-2" class="slider slider-direction">
                     <div class="container">
-                        <div class="content-part text-center">
+                        <div class="content-part text-center c2">
                             <div class="slider-des">
                                 <!-- <div class="sl-subtitle">Need more strategy</div> -->
                                 <h1 class="sl-title white-color">Mechanical Seal Support System for API Pumps</h1>
@@ -234,7 +266,7 @@
                     <div class="container">
                         <div class="content-part text-center">
                             <div class="slider-des">
-                                <!-- <div class="sl-subtitle">Need more strategy</div> -->
+                                <!-- <div class="sl-subtitle">Discover your business</div> -->
                                 <h1 class="sl-title white-color">Oil & Gas Systems </h1>
                                 <p>
                                     Trusted partner in Oil & Gas sector for design Manufacture and 
@@ -250,14 +282,55 @@
                         </div>
                     </div>
                 </div>
+                <!-- <div id="slide-3" class="slider slider-direction">
+                    <div class="container">
+                        <div class="content-part text-center c3">
+                            <div class="slider-des">
+                                <h1 class="sl-title white-color">Oil & Gas Systems </h1>
+                                <p>
+                                    Trusted partner in Oil & Gas sector for design Manufacture and 
+                                    Supply of loading Arm Systems / Unloading Arms Systems, 
+                                    Independent Swivel Joints.
+                                </p>
+                            </div>
+                            <div class="slider-bottom">
+                                <ul>
+                                    <li><a href="oil-and-gas.html" class="readon">View More</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
                 <div id="slide-4" class="slider slider-direction">
                     <div class="container">
-                        <div class="content-part text-center">
+                        <div class="content-part text-center c4">
                             <div class="slider-des">
                                 <!-- <div class="sl-subtitle">Need more strategy</div> -->
-                                <h1 class="sl-title white-color">Diversify, Decarbonize, Digitize </h1>
+                                <h1 class="sl-title white-color">Diversify, Decarbonize, Digitize, Cryogenic </h1>
                                 <p>
-                                 
+                                    Solution provider for Agro Waste to energy. 
+                                    Conversion of CBG 
+                                    to CNG by Anaerobic Digestion of biodegradable waste.
+                                </p>
+                            </div>
+                            <div class="slider-bottom">
+                                <ul>
+                                    <li><a href="about.html" class="readon">View More</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide-5" class="slider slider-direction">
+                    <div class="container">
+                        <div class="content-part text-center ">
+                            <div class="slider-des">
+                                <!-- <div class="sl-subtitle">Need more strategy</div> -->
+                                <h1 class="sl-title white-color">Renewable Energy </h1>
+                                <p>
+                                    Solution provider for Agro Waste to energy. 
+                                    Conversion of CBG 
+                                    to CNG by Anaerobic Digestion of biodegradable waste.
                                 </p>
                             </div>
                             <div class="slider-bottom">
@@ -274,7 +347,8 @@
         </div>
         <!-- Slider End -->
 
-        <div class="rs-partner modify  pt-80 ">
+       <div class="rs-partner modify pt-70 pb-10">
+           
             <div class="container">
                 <div class="rs-carousel owl-carousel" data-loop="true" data-items="6" data-margin="30"
                     data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
@@ -283,6 +357,21 @@
                     data-ipad-device="5" data-ipad-device-nav="false" data-ipad-device-dots="false"
                     data-ipad-device2="5" data-ipad-device-nav2="false" data-ipad-device-dots2="false"
                     data-md-device="5" data-md-device-nav="false" data-md-device-dots="false">
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c5.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c31.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c38.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c39.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c30.jpg" alt=""></a>
+                    </div>
                     <div class="partner-item">
                         <img src="assets/images/partner/c1.jpg" alt=""></a>
                     </div>
@@ -295,9 +384,7 @@
                     <div class="partner-item">
                         <img src="assets/images/partner/c4.jpg" alt=""></a>
                     </div>
-                    <div class="partner-item">
-                        <img src="assets/images/partner/c5.jpg" alt=""></a>
-                    </div>
+                   
                     <div class="partner-item">
                         <img src="assets/images/partner/c6.jpg" alt=""></a>
                     </div>
@@ -330,6 +417,9 @@
                                     <div class="carousel-item">
                                         <img src="assets/images/ab1.jpg" class="d-block w-100" alt="...">
                                     </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/images/ab3.jpg" class="d-block w-100" alt="...">
+                                    </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
                                     data-target="#carouselExampleControls" data-slide="prev">
@@ -349,16 +439,16 @@
                             <div class="sub-title primary">About Us</div>
                             <h2 class="title mb-20">We Provide Custom Solution for your business</h2>
                             <p class="desc mb-0">
-                                Y&S Global is a U stamp certified company that focuses on 
+                                Y&S Global provides U stamp certified products that focuses on 
                                 manufacturing of industrial process equipments including Heat 
                                 Exchangers, Columns, Reactors, Piping, Pressure Vessels under 
-                                National and International Codes and standards such as ASME, 
-                                API, PED and EN. They are at the forefront of innovative 
+                                National and International Codes and standards such as ASME, NB, 
+                                API, PED, EN and IBR. They are at the forefront of innovative 
                                 designs for Chemical and Petrochemical Equipment, many of 
                                 which have been patented by their business partners.
                             </p>
                             <!-- <p class="desc mb-0">
-                                    Having more than 19 years of experience in cement plant fabrication work and maintenance, Y&S Global. has undertaken heavy fabrication works, including 54 kl, 75 kl, and 150 kl ammonia storage tanks, silos, dampers, aluminum gangways, piping, pipelines, oil storage tanks, water storage tanks, and service tanks. They have been serving the steel industries for over 19 years, providing various heavy and light fabricated products such as material handling equipment, dust collectors, ladles, blooming mill furnace doors, gas cooling towers, and material ingot trolleys. 
+                                    Having more than 19 years of experience in cement plant fabrication work and maintenance, Y&S Global Industries has undertaken heavy fabrication works, including 54 kl, 75 kl, and 150 kl ammonia storage tanks, silos, dampers, aluminum gangways, piping, pipelines, oil storage tanks, water storage tanks, and service tanks. They have been serving the steel industries for over 19 years, providing various heavy and light fabricated products such as material handling equipment, dust collectors, ladles, blooming mill furnace doors, gas cooling towers, and material ingot trolleys. 
                                     
                                 </p> -->
                         </div>
@@ -368,7 +458,7 @@
                             <li>Quality Assurance</li>
                             <li>Timely Delivery</li>
                         </ul>
-                        <div class="btn-part mt-30">
+                        <div class="btn-part mt-30 wow bounceInDown center">
                             <a class="readon modify" href="about.html">Read More</a>
                         </div>
                     </div>
@@ -438,8 +528,8 @@
         <!-- Premium Services Section Start -->
         <div id="rs-services" class="rs-services style2 gray-bg2 pt-60 pb-70 md-pt-80 md-pb-50 sm-pt-72">
             <div class="container">
-                <div class="sec-title style2 mb-40 md-mb-50 sm-mb-42">
-                    <div class="first-half ">
+                <div class="sec-title mb-40 md-mb-50 sm-mb-42">
+                    <div class="first-half text-center">
                         <h2 class="title mb-0">Our Products</h2>
                     </div>
 
@@ -468,7 +558,7 @@
                         <a href="mechanical-seal-system.html">
                             <div class="service-wrap">
                                 <div class="content-part text-center">
-                                    <h3 class="title">Mechanical Seal System</h3>
+                                    <h3 class="title">Mechanical Seal Support System</h3>
                                 </div>
                                 <div class="image-part">
                                     <img src="assets/images/product/mechanical/mechanical-seal.jpg" alt="">
@@ -485,58 +575,17 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30">
-                        <a href="material-handling-system.html">
-                            <div class="service-wrap">
-                                <div class="content-part text-center">
-                                    <h3 class="title">Material Handling System</h3>
-                                </div>
-                                <div class="image-part">
-                                    <img src="assets/images/product/material/material-conveyor.jpg" alt="">
-                                </div>
-                                <div class="content-part text-center">
-                                    <div class="desc">
-                                       Conveyor, Cement 
-                                        Bulker, Scrapper, EOT Cranes, Hopper, 
-                                        Inter Rack Carrier, Gantry Jib Crane 
-                                        Repair & Maintenace.
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-30">
-                        <a href="sugar-plant-boiler-distilleries.html">
-                            <div class="service-wrap">
-                                <div class="content-part text-center">
-                                    <h3 class="title">Sugar Plant, Boiler & Distilleries</h3>
-                                </div>
-                                <div class="image-part">
-                                    <img src="assets/images/product/sugar/boiler.jpg" alt="">
-                                </div>
-                                <div class="content-part text-center">
-                                    <div class="desc">
-                                        We specialize in Sugar Mill Row Coupling,
-                                        Cane Carrier, Jaggery Plant, Boiler, Distilleries,IBR & Non IBR Piping.
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-30">
                         <a href="chemical-storage-tank.html">
                             <div class="service-wrap">
                                 <div class="content-part text-center">
-                                    <h3 class="title">Chemical Storage Tanks</h3>
+                                    <h3 class="title">Storage Tanks</h3>
                                 </div>
                                 <div class="image-part">
                                     <img src="assets/images/product/chemical/chemical-lpg.jpg" alt="">
                                 </div>
                                 <div class="content-part text-center">
                                     <div class="desc">
-                                        We specialize in LPG, 
-                                        Feborizer, Laddle, Underground, CO2 Storage, 
+                                        We specialize in storage & mobile LPG, CO2 Storage, 
                                         Propylene and Propane Tanks & More.
                                     </div>
                                 </div>
@@ -558,26 +607,6 @@
                                         We are specializes in Thermal Oxidizer, Stack, 
                                         Dryer, Autoclave, Electrolyzer, FGD, 
                                         Venturi, Incinerator.
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-30">
-                        <a href="liquefied-gas-container.html">
-                            <div class="service-wrap">
-                                <div class="content-part text-center">
-                                    <h3 class="title">Liquefied Gas Container </h3>
-                                </div>
-                                <div class="image-part">
-                                    <img src="assets/images/product/lquified/prover-tank-main.jpg" alt="">
-                                </div>
-                                <div class="content-part text-center">
-                                    <div class="desc">
-                                        We are specializes in Liquefied Gas 
-                                        Container - ISO Tank, Cryogenic Tank, 
-                                        Nitrogen Tank, LPG Tank.
                                     </div>
                                 </div>
                             </div>
@@ -624,7 +653,68 @@
                         </a>
                         
                     </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <a href="liquefied-gas-container.html">
+                            <div class="service-wrap">
+                                <div class="content-part text-center">
+                                    <h3 class="title">Liquefied Gas Container </h3>
+                                </div>
+                                <div class="image-part">
+                                    <img src="assets/images/product/lquified/prover-tank-main.jpg" alt="">
+                                </div>
+                                <div class="content-part text-center">
+                                    <div class="desc">
+                                        We are specializes in Liquefied Gas 
+                                        Container - ISO Tank, Cryogenic Tank, 
+                                        Nitrogen Tank, LPG Tank.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <a href="sugar-plant-boiler-distilleries.html">
+                            <div class="service-wrap">
+                                <div class="content-part text-center">
+                                    <h3 class="title">Sugar Plant, Boiler & Distilleries</h3>
+                                </div>
+                                <div class="image-part">
+                                    <img src="assets/images/product/sugar/boiler.jpg" alt="">
+                                </div>
+                                <div class="content-part text-center">
+                                    <div class="desc">
+                                        We specialize in Sugar Mill Rope Coupling, Fibrizer, 
+                                        Cane Carrier, Jaggery Plant, Boiler, Distilleries,IBR & Non IBR Piping.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <a href="material-handling-system.html">
+                            <div class="service-wrap">
+                                <div class="content-part text-center">
+                                    <h3 class="title">Material Handling System</h3>
+                                </div>
+                                <div class="image-part">
+                                    <img src="assets/images/product/material/material-conveyor.jpg" alt="">
+                                </div>
+                                <div class="content-part text-center">
+                                    <div class="desc">
+                                       Conveyor, Cement 
+                                        Bulker, Scrapper, EOT Cranes, Hopper, 
+                                        Inter Rack Carrier, Gantry Jib Crane 
+                                        Repair & Maintenace.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    
 
                 </div>
             </div>
@@ -671,7 +761,7 @@
                         <div class="about-widget pr-15">
                             <h4 class="widget-title">About Us</h4>
                             <p class="desc">
-                                Y&S Global is a U stamp certified company that focuses on 
+                                Y&S Global provides U stamp certified products that focuses on 
                                 manufacturing of industrial process equipments including Heat 
                                 Exchangers, Columns, Reactors, Piping, Pressure Vessels under 
                                 National and International Codes and standards such as ASME, 
@@ -679,12 +769,12 @@
                                 designs for Chemical and Petrochemical Equipment, many of 
                                 which have been patented by their business partners.
                             </p>
-                            <div class="btn-part btmn">
+                            <div class="btn-part btmn wow bounceInUp center">
                                 <a class="readon" href="about.html">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget">
+                   <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget wow bounceInDown center">
                         <h4 class="widget-title">Contact Info</h4>
                         <ul class="address-widget pr-40">
                             <li>
@@ -693,9 +783,9 @@
                                         <i class="flaticon-location"></i>
                                     </div>
                                     <div class="desc">
-                                        9, 1st floor, Kamalprabha Co-op. Hsg. Society,
-                                        531/3, Model Colony, Opp. police ground,
-                                        F.C. Road Pune-16.
+                                       Office No.10, 1st floor, Kamalprabha Co-op. 
+                                        Hsg. Society, 531/3, Model Colony, 
+                                        Opp. police ground, F.C. Road Pune-16.
                                     </div>
                                 </div>
                             </li>
@@ -705,7 +795,8 @@
                                         <i class="flaticon-time-call" style="color: #106eea;"></i>
                                     </div>
                                     <div class="desc">
-                                        <a href="tel:919850667926">+91 9850667926</a>
+                                         <a href="tel:+919922913033">+919922913033</a><br>
+                                    <a href="tel:+919730477555">+919730477555</a>
                                     </div>
                                 </div>
                             </li>
@@ -745,7 +836,7 @@
                 <div class="row y-middle">
                     <div class="col-lg-6 col-md-6 ">
                         <div class="copyright">
-                            <p>© Global Industries India Pvt. Ltd. All Rights Reserved.</p>
+                            <p> Y&S Process Equipment Pvt. Ltd. All Rights Reserved.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 text-right sm-text-center">

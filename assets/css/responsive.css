@@ -31,21 +31,59 @@
     .container.custom-for-sl {
         max-width: 570px;
     }
+   
 }
-@media screen and (min-width: 768px){
+
+@media screen and (max-width: 768px){
     .container.custom-for-sl {
         max-width: 750px;
     }
+    .navbar-area .main-nav:before {
+        width: 48% !important;
+        border-top: 90px solid #fff;
+    }
+    .full-width-header .rs-header .menu-area .logo-area img {
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        width: 70px !important;
+    }
+    .rs-slider.slider3 .content-part {
+        top: 50%;
+    }
+    
 }
 @media screen and (min-width: 992px){
     .container.custom-for-sl {
         max-width: 990px;
     }
 }
+@media screen and (max-width: 1000px){
+    .navbar-area .main-nav:before {
+      
+        width: 38%;
+    }
+    .full-width-header .rs-header .menu-area .logo-area img {
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        width: 80px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .navbar-area .main-nav:before {
+     
+        border-top: 110px solid #fff ;
+        border-right: 120px solid transparent ;
+    }
+    .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
+        transition: all 0.3s ease;
+        font-size: 14px;
+    }
+} 
 @media only screen and (min-width: 1200px) {
     .container.custom-for-sl {
         max-width: 1170px;
     }
+    
 }
 @media only screen and (min-width: 1300px) {
     .container {
@@ -58,10 +96,11 @@
     .container.custom-for-sl {
         max-width: 1230px;
     }
+    
 }
 /* container control end */
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1440px) {
     .rs-portfolio.style2::after {
         height: 100%;
     }
@@ -71,6 +110,11 @@
     .rs-portfolio.style2 .slider-part .owl-item .portfolio-wrap .content-part {
         right: 15px;
         left: 15px;
+    }
+    .full-width-header .rs-header .menu-area .logo-area img {
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        width: 80px ;
     }
 }
 
@@ -311,10 +355,10 @@
         padding: 50px 40px 30px 40px;
     }
     .full-width-header .rs-header .menu-area .main-menu .rs-menu.pr-65 {
-        padding-right: 27px;
+        padding-right: 0px;
     }
     .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu > li {
-        margin-right: 21px;
+        margin-right: 12px;
     }
     .rs-services.style1 .service-wrap {
         padding: 30px 15px;
@@ -1264,7 +1308,7 @@
     .full-width-header .rs-header .menu-area .logo-area {
         position: absolute;
         height: 82px !important;
-        line-height: 75px !important;
+        line-height: 88px !important;
         z-index: 1;
     }
   
@@ -2800,12 +2844,51 @@ width: 100%;
     }
 }
 
+@media only screen and (max-width: 375px) {
+    .nivo-caption p {
+        text-shadow: 1px 1px #000;
+        font-size: 16px;
+        padding: 5px;
+    }
+}
 @media only screen and (max-width: 480px) {
     .sec-title h2.title,
     .sec-title h2.title2,
     h2 {
-        font-size: 23px;
+        font-size: 35px;
         line-height: 33px;
+    }
+    .immg-div a i {
+        color: #106eea;
+        font-size: 20px;
+    }
+    .navbar-area .main-nav:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        bottom: 39px;
+        height: 100%;
+        width: 25%;
+        border-left: 0px solid transparent;
+        border-top: 89px solid #fff;
+    }
+    .first-class {
+        position: absolute;
+        left: 66%;
+        bottom: 4%;
+    }
+    .second-class {
+        position: absolute;
+        left: 52%;
+        bottom: 32%;
+    }
+    .copyright p {
+        text-align: center;
+    }
+    .copyright, .pptext p {
+        padding-top: 0px;
+        text-align: center;
     }
     .btn-part{
         margin-bottom: 30px;
@@ -3227,7 +3310,12 @@ width: 100%;
     .full-width-header .rs-header .menu-area.sticky .logo-area img,
     .rs-footer .footer-content .about-widget .logo-part a img,
     .full-width-header .rs-header .menu-area .logo-area img {
-        max-height: 70px;
+        max-height: 85px;
+    }
+    .navbar-area .main-nav:before {
+      
+        border-top: 89px solid #fff !important;
+        border-right: 98px solid transparent  !important;
     }
     .rs-about.style1 .services-part .services-text {
         padding-left: 0;
@@ -3262,7 +3350,7 @@ width: 100%;
     }
     .rs-slider.slider1 .nivoSlider img,
     .rs-slider.slider3 .nivoSlider img {
-        height: 480px;
+        height: 400px;
     }
     .rs-testimonial.style1 .slider-part {
         padding: 57px 45px 52px;
@@ -3287,7 +3375,7 @@ width: 100%;
     .rs-slider.slider3 .content-part .sl-title {
         font-size: 30px;
         line-height: 40px;
-        margin-bottom: 25px;
+        margin-bottom: 5px;
     }
     .rs-slider.slider3 .content-part .sl-subtitle {
         font-size: 20px;
@@ -3815,4 +3903,9 @@ width: 100%;
 }
 
 @media only screen and (max-width: 320px) {
+}
+@media screen and (max-width: 2560px){
+    .navbar-area .main-nav:before {
+        width: 39% ;
+    }
 }

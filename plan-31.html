@@ -86,59 +86,80 @@
     </head>
     <body class="home-three">
 
-        <div class="full-width-header">
-           
-            
-            <!--Header Start-->
-            <header id="rs-header" class="rs-header">
-                <!-- Menu Start -->
-                <div class="menu-area menu-sticky">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <div class="logo-area">
-                                    <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
-                                </div>
+       <style>
+    .navbar-area .main-nav:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        bottom: 39px;
+        height: 100%;
+        width: 25%;
+        border-left: 0px solid transparent;
+        border-top: 104px solid #fff;
+        border-right: 130px solid transparent;
+        -webkit-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+    }
+    .navbar-area .main-nav{
+        background-color: #1fa7eb !important;
+    }
+    
+</style>
+    <!--Full width header Start-->
+    <div class="full-width-header navbar-area">
+        <!--Header Start-->
+        <header id="rs-header"  class="rs-header main-nav">
+            <!-- Menu Start -->
+            <div class="menu-area  menu-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <div class="logo-area">
+                                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
                             </div>
-                            <div class="col-lg-10 text-right">
-                                <div class="rs-menu-area">
-                                    <div class="main-menu">
-                                        <div class="mobile-menu">
-                                            <a class="rs-menu-toggle">
-                                                <i class="fa fa-bars"></i>
-                                            </a>
-                                        </div>
-                                        <nav class="rs-menu pr-65">
+                        </div>
+                        <div class="col-lg-10 text-right">
+                            <div class="rs-menu-area ">
+                                <div class="main-menu">
+                                    <div class="mobile-menu">
+                                        <a class="rs-menu-toggle">
+                                            <i class="fa fa-bars"></i>
+                                        </a>
+                                    </div>
+                                        <nav class="rs-menu">
                                             <ul class="nav-menu">
                                                 <li> <a href="index.html">Home</a></li>
                                                 <li class="menu-item-has-children">
-                                                <a href="about.html">About Us</a>
+                                            <a href="#">About Us</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="about.html">About Us</a></li>
-                                                    <li><a href="leadership.html">Leadership</a></li>
-                                                    <li><a href="infrastructure.html">Infrastructure</a></li>
-                                                    <li class="last-item menu-item-has-children ">
-                                                        <a href="crane-overhauling-services.html">Our Services</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="crane-overhauling-services.html">Crane Overhauling Services</a> </li>
-                                                            <li><a href="repair-and-maintenance-services.html">Repair and Maintenance Services of Mechanical Seal Systems</a> </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="csr-and-sustainability.html">CSR and Sustainability</a></li>
-                                                </ul>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="leadership.html">Leadership</a></li>
+                                                <li><a href="infrastructure.html">Infrastructure</a></li>
+                                                <li><a href="testimonial.html">Testimonials</a></li>
+                                                <li class="last-item menu-item-has-children ">
+                                                    <a href="#">Our Services</a>
+                                                     <ul class="sub-menu">
+                                                        <li><a href="crane-overhauling-services.html">Crane Overhauling Services</a> </li>
+                                                        <li><a href="repair-and-maintenance-services.html">Repair and Maintenance Services of Mechanical Seal Support Systems</a> </li>
+                                                        <li><a href="heat-exchanger-tube-replacement-and-overhauling.html">Heat Exchanger – Tube Replacement and Overhauling</a> </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="csr-and-sustainability.html">CSR and Sustainability</a></li>
+                                            </ul>
                                             </li>
                                                 <li class="menu-item-has-children current-menu-item">
                                                     <a href="#">Products</a>
                                                      <ul class="sub-menu">
                                                     <li><a href="process-equipment.html">Process Equipment</a></li>
-                                                    <li><a href="mechanical-seal-system.html">Mechanical Seal System</a></li>
-                                                    <li><a href="material-handling-system.html">Material Handling System</a></li>
-                                                    <li><a href="sugar-plant-boiler-distilleries.html">Sugar Plant, Boiler and Distilleries</a></li>
-                                                    <li><a href="chemical-storage-tank.html">Chemical Storage Tanks</a></li>
+                                                    <li><a href="mechanical-seal-system.html">Mechanical Seal Support System</a></li>
+                                                    <li><a href="chemical-storage-tank.html">Storage Tanks</a></li>
                                                     <li><a href="air-pollution-control-system.html">Air Pollution Control System</a></li>
-                                                    <li><a href="liquefied-gas-container.html">Liquefied Gas Container</a></li>
                                                     <li><a href="oil-and-gas.html">Oil and Gas</a></li>
                                                     <li><a href="skid-package-unit.html">Skid Package Unit</a></li>
+                                                    <li><a href="liquefied-gas-container.html">Liquefied Gas Container</a></li>
+                                                    <li><a href="sugar-plant-boiler-distilleries.html">Sugar Plant, Boiler and Distilleries</a></li>
+                                                    <li><a href="material-handling-system.html">Material Handling System</a></li>
                                                 </ul>
                                                 </li>
                                               
@@ -146,11 +167,22 @@
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Gallery</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="product-gallery.html">Product Gallery</a></li>
-                                                        <li><a href="">Video Gallery</a></li>
-                                                    </ul>
+                                                    <li><a href="product-gallery.html">Product Gallery</a></li>
+                                                    <li><a href="">Video Gallery</a></li>
+                                                    <li><a href="our-team.html">Our Team</a></li>
+                                                </ul>
                                                 </li>
-                                                <li> <a href="#">Blogs</a></li>
+                                               <li class="menu-item-has-children">
+                                                <a href="#">Technology</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Compress Biogas (CBG)</a></li>
+                                                    <li><a href="#">Gas Purification System</a></li>
+                                                    <li><a href="#">Cryogenic Equipments</a></li>
+                                                    <li><a href="#">Swivel Joints</a></li>
+                                                    <li><a href="#">CNG Cascades</a></li>
+                                                    <li><a href="#">Green Hydrogen</a></li>
+                                                </ul>
+                                            </li>
                                                 <li> <a href="client.html">Clients</a></li>
                                                 <li> <a href="contact.html">Contact Us</a></li>
                                             </ul> 
@@ -263,10 +295,10 @@
                                 </div>
                                 <ul class="page-nav-vertical  ">
                                     <li><a href="process-equipment.html">Process Equipment</a></li>
-                                    <li class="active"><a href="mechanical-seal-system.html">Mechanical Seal System</a></li>
+                                    <li class="active"><a href="mechanical-seal-system.html">Mechanical Seal Support System</a></li>
                                     <li><a href="material-handling-system.html">Material Handling System</a></li>
                                    <li><a href="sugar-plant-boiler-distilleries.html">Sugar Plant, Boiler and Distilleries</a></li>
-                                    <li><a href="chemical-storage-tank.html">Chemical Storage Tanks</a></li>
+                                    <li><a href="chemical-storage-tank.html">Storage Tanks</a></li>
                                     <li><a href="air-pollution-control-system.html">Air Pollution Control System</a></li>
                                     <li><a href="liquefied-gas-container.html">Liquefied Gas Container</a></li>
                                     <li><a href="oil-and-gas.html">Oil and Gas</a></li>
@@ -289,6 +321,62 @@
         </div> 
         <!-- Main content End -->
 
+            <div class="rs-partner modify pt-10 pb-70">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-12 wow bounceInUp center">
+                        <div class="texthead text-center mb-40">
+                            <h2>Our Clients</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="rs-carousel owl-carousel" data-loop="true" data-items="6" data-margin="30"
+                    data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
+                    data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false"
+                    data-mobile-device="2" data-mobile-device-nav="false" data-mobile-device-dots="false"
+                    data-ipad-device="5" data-ipad-device-nav="false" data-ipad-device-dots="false"
+                    data-ipad-device2="5" data-ipad-device-nav2="false" data-ipad-device-dots2="false"
+                    data-md-device="5" data-md-device-nav="false" data-md-device-dots="false">
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c5.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c31.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c38.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c39.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c30.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c1.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c2.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c3.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c4.jpg" alt=""></a>
+                    </div>
+                   
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c6.jpg" alt=""></a>
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/partner/c7.jpg" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <!-- Footer Start -->
         <!-- <footer id="rs-footer" class="rs-footer" style="background-image: url(assets/images/foot-bg.jpg);background-size: cover;"> -->
        <style>
@@ -330,7 +418,7 @@
                         <div class="about-widget pr-15">
                             <h4 class="widget-title">About Us</h4>
                             <p class="desc">
-                                Y&S Global is a U stamp certified company that focuses on 
+                                Y&S Global provides U stamp certified products that focuses on 
                                 manufacturing of industrial process equipments including Heat 
                                 Exchangers, Columns, Reactors, Piping, Pressure Vessels under 
                                 National and International Codes and standards such as ASME, 
@@ -338,12 +426,12 @@
                                 designs for Chemical and Petrochemical Equipment, many of 
                                 which have been patented by their business partners.
                             </p>
-                            <div class="btn-part btmn">
+                            <div class="btn-part btmn wow bounceInUp center">
                                 <a class="readon" href="about.html">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget">
+                   <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget wow bounceInDown center">
                         <h4 class="widget-title">Contact Info</h4>
                         <ul class="address-widget pr-40">
                             <li>
@@ -352,9 +440,9 @@
                                         <i class="flaticon-location"></i>
                                     </div>
                                     <div class="desc">
-                                        9, 1st floor, Kamalprabha Co-op. Hsg. Society,
-                                        531/3, Model Colony, Opp. police ground,
-                                        F.C. Road Pune-16.
+                                       Office No.10, 1st floor, Kamalprabha Co-op. 
+                                        Hsg. Society, 531/3, Model Colony, 
+                                        Opp. police ground, F.C. Road Pune-16.
                                     </div>
                                 </div>
                             </li>
@@ -364,7 +452,8 @@
                                         <i class="flaticon-time-call" style="color: #106eea;"></i>
                                     </div>
                                     <div class="desc">
-                                        <a href="tel:919850667926">+91 9850667926</a>
+                                         <a href="tel:+919922913033">+919922913033</a><br>
+                                    <a href="tel:+919730477555">+919730477555</a>
                                     </div>
                                 </div>
                             </li>
@@ -404,7 +493,7 @@
                 <div class="row y-middle">
                     <div class="col-lg-6 col-md-6 ">
                         <div class="copyright">
-                            <p>© Global Industries India Pvt. Ltd. All Rights Reserved.</p>
+                            <p> Y&S Process Equipment Pvt. Ltd. All Rights Reserved.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 text-right sm-text-center">
