@@ -17371,6 +17371,182 @@ display: none !important;
   width: 100%;
 } 
 
+
+  .navbar-area .main-nav:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 39px;
+    height: 100%;
+    width: 38%;
+    border-left: 0px solid transparent;
+    border-top: 110px solid #fff;
+    border-right: 130px solid transparent;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+  }
+  .navbar-area .main-nav{
+    background-color: #1fa7eb !important;
+  } 
+
+  @media screen and (max-width: 2200px){
+  .navbar-area .main-nav:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 39px;
+    height: 100%;
+    width: 34%;
+    border-left: 0px solid transparent;
+    border-top: 110px solid #fff;
+    border-right: 130px solid transparent;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+  }
+  .navbar-area .main-nav{
+    background-color: #1fa7eb !important;
+  }
+  }
+
+
+
+@media screen and (max-width: 1700px){
+
+  .navbar-area .main-nav:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 39px;
+    height: 100%;
+    width: 29%;
+    border-left: 0px solid transparent;
+    border-top: 110px solid #fff;
+    border-right: 130px solid transparent;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+  }
+  .navbar-area .main-nav{
+    background-color: #1fa7eb !important;
+  } 
+  }
+
+@media screen and (max-width: 1400px){
+
+.navbar-area .main-nav:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  bottom: 39px;
+  height: 100%;
+  width: 26%;
+  border-left: 0px solid transparent;
+  border-top: 110px solid #fff;
+  border-right: 130px solid transparent;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+.navbar-area .main-nav{
+  background-color: #1fa7eb !important;
+} 
+}
+@media screen and (max-width: 1300px){
+
+  .navbar-area .main-nav:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 39px;
+    height: 100%;
+    width: 25%;
+    border-left: 0px solid transparent;
+    border-top: 105px solid #fff;
+    border-right: 130px solid transparent;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+  }
+  .navbar-area .main-nav{
+    background-color: #1fa7eb !important;
+  } 
+  }
+
+  @media screen and (max-width: 1200px){
+
+    .navbar-area .main-nav:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      bottom: 39px;
+      height: 100%;
+      width: 26%;
+      border-left: 0px solid transparent;
+      border-top: 105px solid #fff;
+      border-right: 130px solid transparent;
+      -webkit-transition: 0.5s all ease;
+      transition: 0.5s all ease;
+    }
+    .navbar-area .main-nav{
+      background-color: #1fa7eb !important;
+    } 
+    .full-width-header .rs-header .menu-area .logo-area img {
+      transition: 0.4s;
+      -webkit-transition: 0.4s;
+      width: 70px !important;
+  }
+    }
+
+    @media screen and (max-width: 1100px){
+
+      .navbar-area .main-nav:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        bottom: 39px;
+        height: 100%;
+        width: 25%;
+        border-left: 0px solid transparent;
+        border-top: 105px solid #fff;
+        border-right: 130px solid transparent;
+        -webkit-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+      }
+      .navbar-area .main-nav{
+        background-color: #1fa7eb !important;
+      } 
+      }
+
+      @media screen and (max-width: 991px){
+
+        .navbar-area .main-nav:before {
+          position: absolute;
+          content: "";
+          left: 0;
+          top: 0;
+          bottom: 39px;
+          height: 100%;
+          width: 50%;
+          border-left: 0px solid transparent;
+          border-top: 90px solid #fff;
+          border-right: 130px solid transparent;
+          -webkit-transition: 0.5s all ease;
+          transition: 0.5s all ease;
+        }
+        .navbar-area .main-nav{
+          background-color: #1fa7eb !important;
+        } 
+        .full-width-header .rs-header .menu-area .logo-area img {
+          transition: 0.4s;
+          -webkit-transition: 0.4s;
+          width: 70px !important;
+      }
+        }
+
 /* .third-class a i{
   color:#106eea;
   font-size: 30px;

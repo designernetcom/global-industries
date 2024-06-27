@@ -39,7 +39,7 @@
         max-width: 750px;
     }
     .navbar-area .main-nav:before {
-        width: 48% !important;
+        width: 65% !important;
         border-top: 90px solid #fff;
     }
     .full-width-header .rs-header .menu-area .logo-area img {
@@ -58,10 +58,7 @@
     }
 }
 @media screen and (max-width: 1000px){
-    .navbar-area .main-nav:before {
-      
-        width: 38%;
-    }
+ 
     .full-width-header .rs-header .menu-area .logo-area img {
         transition: 0.4s;
         -webkit-transition: 0.4s;
@@ -69,11 +66,7 @@
     }
 }
 @media screen and (max-width: 1024px){
-    .navbar-area .main-nav:before {
-     
-        border-top: 110px solid #fff ;
-        border-right: 120px solid transparent ;
-    }
+ 
     .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
         transition: all 0.3s ease;
         font-size: 14px;
@@ -114,7 +107,8 @@
     .full-width-header .rs-header .menu-area .logo-area img {
         transition: 0.4s;
         -webkit-transition: 0.4s;
-        width: 80px ;
+        width: 90px;
+        padding: 2px;
     }
 }
 
@@ -3310,7 +3304,7 @@ width: 100%;
     .full-width-header .rs-header .menu-area.sticky .logo-area img,
     .rs-footer .footer-content .about-widget .logo-part a img,
     .full-width-header .rs-header .menu-area .logo-area img {
-        max-height: 85px;
+        /* max-height: 85px; */
     }
     .navbar-area .main-nav:before {
       
@@ -3904,8 +3898,8 @@ width: 100%;
 
 @media only screen and (max-width: 320px) {
 }
-@media screen and (max-width: 2560px){
+/* @media screen and (max-width: 2560px){
     .navbar-area .main-nav:before {
         width: 39% ;
     }
-}
+} */
